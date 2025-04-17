@@ -1,8 +1,13 @@
-# React + Vite
+# Swiggy Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple Swiggy clone for demo purposes.
 
-Currently, two official plugins are available:
+## ⚠️ CORS Issue
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This app may face CORS issues when calling external APIs.
+
+To fix this, visit:  
+👉 [https://cors-anywhere.herokuapp.com/corsdemo](https://cors-anywhere.herokuapp.com/corsdemo)  
+Click **"Request temporary access"** before using the app.
+
+> This is a dev-only workaround. Not recommended for production.
