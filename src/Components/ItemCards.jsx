@@ -7,7 +7,6 @@ const ItemCards = ({ item, Selected }) => {
 
   if (!isOpen) {
     return (
-      // Fixed the typo here
       <div className="w-full">
         <div className="flex justify-between w-full">
           <p className="text-2xl">{item.title}</p>

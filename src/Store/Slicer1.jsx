@@ -7,7 +7,6 @@ const cart = createSlice({
   },
   reducers: {
     addItems: (state, action) => {
-      // Add new item with default quantity of 1
       state.items.push({ ...action.payload, quantity: 1 });
       state.count++;
     },
